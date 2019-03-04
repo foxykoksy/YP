@@ -1,0 +1,124 @@
+div.fixed {
+    position: fixed;
+    bottom: 88%;
+    right: 97.3%;
+    width: 40px;
+    height: 40px;
+    background-image: url("find.png");
+    background-size: 100%;
+}
+.flex-container {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    margin: 5px;
+    background-image: url("NPC.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 16%;
+    height: 30%;
+    text-align: right;
+}
+header
+{
+    margin:0px ;
+    padding: 0px;
+    height: 7%;
+    background-color: #666666
+}
+footer
+{
+    margin:0px;
+    padding: 0px;
+    height: 15%;
+    background-color: #333333;
+}
+body
+{
+    height: 93%;
+    margin: 0px;
+    padding: 0px;
+    background-color: blue;
+}
+html {
+    height: 100%;
+}
+.horizontal{
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: -webkit-flex;
+    justify-content: space-between;
+// background-color: #333333;
+}
+
+.horizont {
+    height: 100%;
+    float: left;
+    display: block;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+#right  {
+    text-align: right;
+}
+.pics
+{
+    height: 20%;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+}
+aside {
+    padding: 0px;
+    background: #f0f0f0;
+    margin: 0px;
+    float: right;
+    height: 100%;
+    width: 20%;
+}
+div
+{
+// padding: 20px;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 77%;
+    background-image:url("board1.jpg");
+    float: outside;
+    overflow: visible;
+}
+p
+{
+    font-size: 2vh;
+}
